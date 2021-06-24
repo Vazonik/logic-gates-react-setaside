@@ -1,0 +1,20 @@
+.Entity {
+  width: 48px;
+  height: 24px;
+  cursor: grab;
+
+  &:active {
+    cursor: grabbing;
+  }
+
+  .Entity-pin {
+    width: 4px;
+    height: 4px;
+    background-color: #770000;
+    cursor: crosshair;
+
+    &:hover {
+      background-color: #ffff00;
+    }
+  }
+}
