@@ -1,0 +1,30 @@
+@import "./colors";
+
+.Sidebar {
+  width: 250px;
+  height: 100%;
+  background-color: $bgGray2;
+  padding: 5px;
+  overflow: auto;
+  position: relative;
+  flex-grow: 0;
+
+  .Sidebar-resizer {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0px;
+    width: 4px;
+    cursor: e-resize;
+    transition: background-color .1s ease-in;
+
+    &:hover {
+      width: 4px;
+      background-color: $primary;
+    }
+  }
+
+  .Sidebar-resizer-resizing {
+    background-color: $primary;
+  }
+}

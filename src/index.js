@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import ThemeProvider from '@material-ui/styles/ThemeProvider';
+import {ThemeProvider} from '@material-ui/core';
 import CssBaseline from '@material-ui/core/CssBaseline';
+import { createMuiTheme } from '@material-ui/core';
 import App from './components/App';
-import DarkTheme from './themes/dark.js';
 
 ReactDOM.render(
   <React.StrictMode>
-    <ThemeProvider theme={DarkTheme}>
+    <ThemeProvider theme={createMuiTheme({ palette: { type: "dark" } })}>
       <CssBaseline />
       <App />
     </ThemeProvider>

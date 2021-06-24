@@ -1,0 +1,9 @@
+@import "./colors";
+
+.Canvas {
+  background-color: $bgGray1;
+  height: 100%;
+  width: 0;
+  flex-grow: 1;
+  overflow: auto;
+}

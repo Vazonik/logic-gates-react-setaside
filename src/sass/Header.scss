@@ -1,0 +1,14 @@
+@import "./colors";
+
+$headerHeight: 32px;
+
+.Header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: $headerHeight;
+  background-color: $bgGray3;
+  color: $lightGray;
+  padding: 5px;
+}
