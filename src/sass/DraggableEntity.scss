@@ -1,0 +1,15 @@
+.DraggableEntity-on {
+  * {
+    cursor: grab !important;
+  }
+
+  &:active {
+    * {
+      cursor: grabbing !important; 
+    }
+  }
+}
+
+.DraggableEntity-off {
+  cursor: auto;
+}

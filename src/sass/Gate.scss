@@ -1,13 +1,8 @@
-.Entity {
+.Gate {
   width: 48px;
   height: 24px;
-  cursor: grab;
 
-  &:active {
-    cursor: grabbing;
-  }
-
-  .Entity-pin {
+  .Gate-pin {
     width: 4px;
     height: 4px;
     background-color: #770000;

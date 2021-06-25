@@ -1,0 +1,16 @@
+.Input {
+  width: 30px;
+  height: 30px;
+
+  .Input-pin {
+    width: 4px;
+    height: 4px;
+    cursor: crosshair;
+  }
+
+  .Input-button {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+  }
+}
